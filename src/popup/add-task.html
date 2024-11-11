@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./add-task.css">
+</head>
+<body>
+
+  <div class="header">
+    <img src="../icons/add-task-256.png" alt="Things Icon">
+    <h3>Add Page to Things</h3>
+  </div>
+
+  <label for="title">Title</label>
+  <input type="text" id="title" placeholder="Task Title" />
+
+  <label for="notes">Notes</label>
+  <textarea id="notes" placeholder="Additional Notes (optional)" oninput="autoResize(this)"></textarea>
+
+  <label for="tags">Tags</label>
+  <input type="text" id="tags" placeholder="Tags (optional)" />
+
+  <!-- Button container with Add Task and Cancel buttons -->
+  <div class="button-container">
+    <button id="addTaskButton">Add Task</button>
+    <button id="cancelButton">Cancel</button>
+  </div>
+
+  <script src="./add-task.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "things",
+  "version": "0.1.0",
+  "description": "A Firefox extension to add tasks to Things using the page title and URL.",
+  "keywords": [
+    "Firefox",
+    "Extension",
+    "Things"
+  ],
+  "author": "Wolf-Martell Montwé",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wmontwe/firefox-extension-add-to-things/issues"
+  },
+  "homepage": "https://github.com/wmontwe/firefox-extension-add-to-things#readme",
+  "scripts": {
+    "build": "web-ext build --source-dir ./src/",
+    "lint": "web-ext lint --source-dir ./src/",
+    "start": "web-ext run --source-dir ./src/",
+    "sign": "web-ext sign --source-dir ./src/",
+    "docs": "web-ext docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmontwe/firefox-extension-add-to-things.git"
+  },
+  "devDependencies": {
+    "web-ext": "^8.3.0"
+  }
+}
