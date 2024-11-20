@@ -1,6 +1,6 @@
 {
   "name": "things",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A Firefox extension to add tasks to Things using the page title and URL.",
   "keywords": [
     "Firefox",
